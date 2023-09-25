@@ -1,6 +1,6 @@
 import React from "react";
-import { CgWorkAlt } from "react-icons/cg";
-import { FaReact } from "react-icons/fa";
+// import { CgWorkAlt } from "react-icons/cg";
+// import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import dm from "@/public/dm.png";
 import NotesApp from "@/public/NotesApp.png";
@@ -49,7 +49,7 @@ export const experiencesData = [
     location: "P. P. S. V. M. Inter Collage Nanakmatta, Uttarakhand, India",
     description:
       "Focused on science and mathematics. And strong academic performance with participation in extracurricular activities.",
-    icon: React.createElement(CgWorkAlt),
+    icon: React.createElement(LuGraduationCap),
     date: "2014 - 2015",
   },
   {
@@ -57,7 +57,7 @@ export const experiencesData = [
     location: "Lovely Professional University Phagwara, Punjab, India",
     description:
       "Emphasis on programming, algorithms, database management, web development, and more. Notable achievements include excellence in programming and successful project contributions.",
-    icon: React.createElement(FaReact),
+    icon: React.createElement(LuGraduationCap),
     date: "2017 - 2021",
   },
 ] as const;
