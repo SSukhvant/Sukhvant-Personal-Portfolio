@@ -1,5 +1,5 @@
 import React from "react";
-// import { CgWorkAlt } from "react-icons/cg";
+import { CgWorkAlt } from "react-icons/cg";
 // import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import dm from "@/public/dm.png";
@@ -59,6 +59,14 @@ export const experiencesData = [
       "Emphasis on programming, algorithms, database management, web development, and more. Notable achievements include excellence in programming and successful project contributions.",
     icon: React.createElement(LuGraduationCap),
     date: "2017 - 2021",
+  },
+  {
+    title: "Front-End Developer (Intern)",
+    location: "OSCARBLACK Private Limited",
+    description:
+      "Led UI and responsive HTML development, collaborating closely with developers and management to meet project goals. Advised on design patterns based on market trends",
+    icon: React.createElement(CgWorkAlt),
+    date: "2021",
   },
 ] as const;
 
