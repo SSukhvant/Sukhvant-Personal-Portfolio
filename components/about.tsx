@@ -7,7 +7,7 @@ import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
   const { ref } = useSectionInView("About");
-  const [show, setShow] = useState(true);
+  const [show, setShow] = useState(false);
 
   const showMore = () => {
      setShow(!show)
@@ -54,7 +54,7 @@ export default function About() {
         <span className="font-medium">front-end</span> experience.
         <br />
         </p>
-        {!show && <p>
+        {show && <p>
         What drives me is not just the technical aspect, but the fusion of
         creativity and <span className="font-medium">problem-solving</span>.
         I've had the privilege of designing and developing websites that are not
@@ -101,7 +101,7 @@ export default function About() {
         Let's embark on this digital journey together!
       </p>}
 
-      <button className="btn-highlight-none group bg-white px-7 py-3 mt-7 mx-auto flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10" onClick={showMore}>Load More</button>
+      <button className="btn-highlight-none group bg-white px-7 py-3 mt-7 mx-auto flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10" onClick={showMore}>{show ? "Load Less" : "Load More"}</button>
     </motion.section>
   );
 }
