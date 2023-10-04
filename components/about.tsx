@@ -1,12 +1,17 @@
 "use client";
 
-import React from "react";
+import React, { useState } from "react";
 import SectionHeading from "./section-heading";
 import { motion } from "framer-motion";
 import { useSectionInView } from "@/lib/hooks";
 
 export default function About() {
   const { ref } = useSectionInView("About");
+  const [show, setShow] = useState(true);
+
+  const showMore = () => {
+     setShow(!show)
+  }
 
   return (
     <motion.section
@@ -48,6 +53,8 @@ export default function About() {
         data beneath the surface is as solid as the{" "}
         <span className="font-medium">front-end</span> experience.
         <br />
+        </p>
+        {!show && <p>
         What drives me is not just the technical aspect, but the fusion of
         creativity and <span className="font-medium">problem-solving</span>.
         I've had the privilege of designing and developing websites that are not
@@ -92,7 +99,9 @@ export default function About() {
         or explore potential opportunities, please don't hesitate to reach out.
         <br />
         Let's embark on this digital journey together!
-      </p>
+      </p>}
+
+      <button className="btn-highlight-none group bg-white px-7 py-3 mt-7 mx-auto flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10" onClick={showMore}>Load More</button>
     </motion.section>
   );
 }
