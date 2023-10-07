@@ -6,6 +6,7 @@ import dm from "@/public/dm.png";
 import NotesApp from "@/public/NotesApp.png";
 // import dashboard from "@/public/dashboard.png";
 // import dashboardGreen from "@/public/dashboardGreen.png";
+import ecomReact from '@/public/ecom-react.png'
 import LetterCount from "@/public/LetterCount.jpg";
 
 export const links = [
@@ -53,8 +54,8 @@ export const experiencesData = [
     date: "2014 - 2015",
   },
   {
-    title: "Bachelor of Technology Computer Science and Engineering",
-    location: "Lovely Professional University Phagwara, Punjab, India",
+    title: "B.Tech Computer Science and Engineering",
+    location: "Lovely Professional University, Phagwara, India",
     description:
       "Emphasis on programming, algorithms, database management, web development, and more. Notable achievements include excellence in programming and successful project contributions.",
     icon: React.createElement(LuGraduationCap),
@@ -62,11 +63,19 @@ export const experiencesData = [
   },
   {
     title: "Front-End Developer (Intern)",
-    location: "OSCARBLACK Private Limited",
+    location: "OSCARBLACK Private Limited, Remote",
     description:
       "Led UI and responsive HTML development, collaborating closely with developers and management to meet project goals. Advised on design patterns based on market trends",
     icon: React.createElement(CgWorkAlt),
     date: "2021",
+  },
+  {
+    title: "Full Stack Developer",
+    location: "BROWNFLEET OÜ, Remote",
+    description:
+      "Wrote clean, clear, and well-tested code for various projects and Collaborated with other developers to identify and alleviate the number of bugs in the software.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2021 - 2023",
   },
 ] as const;
 
@@ -80,12 +89,20 @@ export const projectsData = [
     projectUrl: "https://webdev-digital-marketing.vercel.app",
   },
   {
-    title: "Keep Notes Progressive Web App",
+    title: "Keep Notes PWA",
     description:
       "This is a Progressive Web Application with CRUD functionality, designed and developed using React JS and Bootstrap 5.",
     tags: ["React.js", "Bootstrap"],
     imageUrl: NotesApp,
     projectUrl: "https://s-notes-app.netlify.app",
+  },
+  {
+    title: "Ecommerce",
+    description:
+      "This is a responsive website with search and filter functionality, designed and developed using React JS and Material UI.",
+    tags: ["React.js", "Material UI"],
+    imageUrl: ecomReact,
+    projectUrl: "https://s-ecom.netlify.app",
   },
   {
     title: "Letter Count and Add Random User Web App ",
@@ -98,22 +115,25 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
-  "Java",
+  "C",
   "C++",
+  "Java",
   "HTML",
   "CSS",
   "JavaScript",
   "TypeScript",
-  "React",
+  "React.js",
+  "Redux",
   "Next.js",
   "Node.js",
-  "Git",
-  "Tailwind",
-  "Bootstrap",
-  "Prisma",
+  "Express.js",
   "MongoDB",
-  "Redux",
-  "Express",
+  "RDBMS(MySQL)",
+  "NeDB",
+  "Git",
+  "GitHub",
+  "Tailwind CSS",
+  "Bootstrap",
   "Framer Motion",
   "WordPress",
   "Shopify"
