@@ -69,14 +69,15 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "2021",
   },
-  {
-    title: "Full Stack Developer",
-    location: "BROWNFLEET OÜ, Remote",
-    description:
-      "Wrote clean, clear, and well-tested code for various projects and Collaborated with other developers to identify and alleviate the number of bugs in the software.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2021 - 2023",
-  },
+  // },
+  // {
+  //   title: "Full Stack Developer",
+  //   location: "BROWNFLEET OÜ, Remote",
+  //   description:
+  //     "Wrote clean, clear, and well-tested code for various projects and Collaborated with other developers to identify and alleviate the number of bugs in the software.",
+  //   icon: React.createElement(CgWorkAlt),
+  //   date: "2021 - 2023",
+  // },
 ] as const;
 
 export const projectsData = [
