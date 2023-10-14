@@ -8,6 +8,8 @@ import NotesApp from "@/public/NotesApp.png";
 // import dashboardGreen from "@/public/dashboardGreen.png";
 import ecomReact from '@/public/ecom-react.png'
 import LetterCount from "@/public/LetterCount.jpg";
+import chatApp from '@/public/chatApp.png';
+import aesop from '@/public/aesop.png'
 
 export const links = [
   {
@@ -69,15 +71,14 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "2021",
   },
-  // },
-  // {
-  //   title: "Full Stack Developer",
-  //   location: "BROWNFLEET OÜ, Remote",
-  //   description:
-  //     "Wrote clean, clear, and well-tested code for various projects and Collaborated with other developers to identify and alleviate the number of bugs in the software.",
-  //   icon: React.createElement(CgWorkAlt),
-  //   date: "2021 - 2023",
-  // },
+  {
+    title: "Full Stack Developer",
+    location: "BROWNFLEET OÜ, Remote",
+    description:
+      "Wrote clean, clear, and well-tested code for various projects and Collaborated with other developers to identify and alleviate the number of bugs in the software.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2021 - 2023",
+  },
 ] as const;
 
 export const projectsData = [
@@ -93,7 +94,7 @@ export const projectsData = [
     title: "Keep Notes PWA",
     description:
       "This is a Progressive Web Application with CRUD functionality, designed and developed using React JS and Bootstrap 5.",
-    tags: ["React.js", "Bootstrap"],
+    tags: ["React.js", "Node JS", "Express JS", "MongoDB", "Bootstrap"],
     imageUrl: NotesApp,
     projectUrl: "https://s-notes-app.netlify.app",
   },
@@ -104,6 +105,22 @@ export const projectsData = [
     tags: ["React.js", "Material UI"],
     imageUrl: ecomReact,
     projectUrl: "https://s-ecom.netlify.app",
+  },
+  {
+    title: "Aesop.com home page clone",
+    description:
+      "Created a dynamic web application with React JS, SCSS, and API integration.",
+    tags: ["React.js", "Firebase", "Authentication","Real-time Database"],
+    imageUrl: aesop,
+    projectUrl: "https://aesop-homepage.netlify.app",
+  },
+  {
+    title: "Chat Application",
+    description:
+      "Developed a dynamic chat application using ReactJS, and Firebase (Authentication and Real-time Database)",
+    tags: ["React.js", "Firebase", "Authentication","Real-time Database"],
+    imageUrl: chatApp,
+    projectUrl: "https://s-chat-app.netlify.app",
   },
   {
     title: "Letter Count and Add Random User Web App ",
