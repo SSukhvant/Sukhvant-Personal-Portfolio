@@ -32,7 +32,7 @@ export default function Intro() {
           >
             <Image
               src="/s.gif"
-              alt="Ricardo portrait"
+              alt="Sukhvant Singh"
               width="192"
               height="192"
               quality="95"
@@ -91,7 +91,7 @@ export default function Intro() {
 
         <a
           className="btn-highlight-none group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/Sukhvant_Singh_CV.pdf"
+          href="/Sukhvant's_Resume.pdf"
           download
         >
           Download CV{" "}

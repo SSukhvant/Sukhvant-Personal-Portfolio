@@ -10,6 +10,7 @@ import ecomReact from '@/public/ecom-react.png'
 import LetterCount from "@/public/LetterCount.jpg";
 import chatApp from '@/public/chatApp.png';
 import aesop from '@/public/aesop.png'
+import tc from "@/public/twitterclone.png"
 
 export const links = [
   {
@@ -83,12 +84,12 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "Digital Marketing Agency Website",
+    title: "Twitter Clone",
     description:
-      "Designed and developed digital marketing agency website, built with Next.js 13 and enhanced with the sleekness of Tailwind CSS",
-    tags: ["React.js", "Next.js", "Tailwind", "Framer Motion", "NodeMailer"],
-    imageUrl: dm,
-    projectUrl: "https://webdev-digital-marketing.vercel.app",
+      "Designed and developed Twitter Clone, built with Next.js 14 and enhanced with the sleekness of Tailwind CSS",
+    tags: ["Next.js", "NextAuth", "Firebase", "Recoil", "API", "Tailwind"],
+    imageUrl: tc,
+    projectUrl: "https://twritter-clone.vercel.app",
   },
   {
     title: "Keep Notes PWA",
@@ -97,6 +98,22 @@ export const projectsData = [
     tags: ["React.js", "Node JS", "Express JS", "MongoDB", "Bootstrap"],
     imageUrl: NotesApp,
     projectUrl: "https://s-notes-app.netlify.app",
+  },
+  {
+    title: "Digital Marketing Agency Website",
+    description:
+      "Designed and developed digital marketing agency website, built with Next.js 13 and enhanced with the sleekness of Tailwind CSS",
+    tags: ["React.js", "Next.js", "Tailwind", "Framer Motion", "NodeMailer"],
+    imageUrl: dm,
+    projectUrl: "https://webdev-digital-marketing.vercel.app",
+  },
+  {
+    title: "Chat Application",
+    description:
+      "Developed a dynamic chat application using ReactJS, and Firebase (Authentication and Real-time Database)",
+    tags: ["React.js", "Firebase", "Authentication","Real-time Database"],
+    imageUrl: chatApp,
+    projectUrl: "https://s-chat-app.netlify.app",
   },
   {
     title: "Ecommerce",
@@ -113,14 +130,6 @@ export const projectsData = [
     tags: ["React.js", "Firebase", "Authentication","Real-time Database"],
     imageUrl: aesop,
     projectUrl: "https://aesop-homepage.netlify.app",
-  },
-  {
-    title: "Chat Application",
-    description:
-      "Developed a dynamic chat application using ReactJS, and Firebase (Authentication and Real-time Database)",
-    tags: ["React.js", "Firebase", "Authentication","Real-time Database"],
-    imageUrl: chatApp,
-    projectUrl: "https://s-chat-app.netlify.app",
   },
   {
     title: "Letter Count and Add Random User Web App ",
@@ -142,6 +151,7 @@ export const skillsData = [
   "TypeScript",
   "React.js",
   "Redux",
+  "Recoil",
   "Next.js",
   "Node.js",
   "Express.js",
@@ -154,5 +164,6 @@ export const skillsData = [
   "Bootstrap",
   "Framer Motion",
   "WordPress",
-  "Shopify"
+  "Shopify",
+  "Linux"
 ] as const;
