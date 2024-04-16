@@ -40,7 +40,7 @@ export default function About() {
         user-centric online experiences.
         <br />
       </p>
-      {show && (
+      {/* {show && (
         <p>
           In my quest to master the digital landscape, I've honed my skills in a
           diverse array of technologies.{" "}
@@ -111,7 +111,7 @@ export default function About() {
         onClick={showMore}
       >
         {show ? "Load Less" : "Load More"}
-      </button>
+      </button> */}
     </motion.section>
   );
 }

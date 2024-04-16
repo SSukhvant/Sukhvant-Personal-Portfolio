@@ -145,6 +145,7 @@ export const skillsData = [
   "C",
   "C++",
   "Java",
+  "Python",
   "HTML",
   "CSS",
   "JavaScript",
@@ -162,8 +163,10 @@ export const skillsData = [
   "GitHub",
   "Tailwind CSS",
   "Bootstrap",
-  "Framer Motion",
+  "Linux",
+  "Jenkins",
+  "Docker",
+  "Kubernetes",
   "WordPress",
   "Shopify",
-  "Linux"
 ] as const;
