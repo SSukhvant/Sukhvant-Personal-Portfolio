@@ -74,11 +74,19 @@ export const experiencesData = [
   },
   {
     title: "Full Stack Developer",
+    location: "FREELANCE, Remote",
+    description:
+      " Delivered 30+ responsive websites across industries such as e-commerce, travel, Business, Health, and NGOs",
+    icon: React.createElement(CgWorkAlt),
+    date: "2021 - 2022",
+  },
+  {
+    title: "Full Stack Developer",
     location: "BROWNFLEET OÜ, Remote",
     description:
       "Wrote clean, clear, and well-tested code for various projects and Collaborated with other developers to identify and alleviate the number of bugs in the software.",
     icon: React.createElement(CgWorkAlt),
-    date: "2021 - 2023",
+    date: "2023 - 2025",
   },
 ] as const;
 

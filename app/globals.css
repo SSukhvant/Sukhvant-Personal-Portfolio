@@ -13,7 +13,7 @@ html.dark {
 }
 
 .borderBlack {
-  @apply border border-black/10;
+  @apply border dark:border-white/[0.2] border-black/[0.1];
 }
 
 .btn-highlight-none{

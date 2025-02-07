@@ -11,7 +11,7 @@ export default function Projects() {
   const [visible, setVisible] = useState(3);
 
   const showMoreItems = () => {
-    setVisible((prevValue) => prevValue + 1);
+    setVisible((prevValue) => prevValue + 2);
   };
 
   return (
